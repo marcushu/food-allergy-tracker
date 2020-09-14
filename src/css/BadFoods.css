@@ -1,0 +1,33 @@
+.severeFD {
+    background-color:rgb(255, 128, 128);
+    color: rgb(95, 8, 8);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.moderateFD {
+    background-color: rgb(247, 214, 154);
+    color: rgb(128, 62, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mildFD {
+    color: rgb(38, 68, 82);
+    background-color: rgb(168, 226, 251);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.noneFd {
+    background-color: rgb(215, 250, 211);
+    color: rgb(9, 83, 54);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header {
+    background-color: rgb(8, 99, 78);
+    color: white;
+    
+}

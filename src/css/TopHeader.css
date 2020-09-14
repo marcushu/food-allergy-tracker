@@ -1,0 +1,36 @@
+.smaller {
+    color: rgb(224, 224, 224);
+    font-style: italic;
+    font-size: 14px;
+}
+
+.larger {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+#severe {
+    color: rgb(255, 128, 128);
+    background-color: rgb(255, 128, 128);
+}
+
+#moderate {
+    color:  rgb(255, 211, 128);
+    background-color:  rgb(255, 211, 128);
+}
+
+#mild {
+    color:  rgb(168, 226, 251);
+    background-color:  rgb(168, 226, 251);
+}
+
+#none {
+    color:  rgb(215, 250, 211);
+    background-color:  rgb(215, 250, 211);
+}
+
+#settingButton {
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(9, 133, 114);
+}

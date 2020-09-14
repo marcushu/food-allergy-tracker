@@ -1,0 +1,21 @@
+.myCard {
+    background-color: white;
+    border-radius: 5px;
+    box-Shadow: 2px 2px 4px #000000;
+    padding: 10px;
+}
+
+.bodyText {
+    font-size: 18px;
+}
+
+.bigger {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(8, 29, 19);
+}
+
+.emph {
+    font-weight: bold;
+    font-size: 20px;
+}
