@@ -1,6 +1,6 @@
 # food-allergy-tracker
 
-![image of the app](https://marcus-hurn.web.app/img/allergyTracker.png)
+![image of the app](https://marcus-hurn.web.app/images/allergyTrackersm.png)
 
 This (web) app help log foods consumed and analyze any resulting reactions that may be the result of food sensitivity.  Store what was eaten, and how you're feeling
 on that day.  The settings allow you to adjust an offset - the number of days between eating something and the experienced
