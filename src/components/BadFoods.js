@@ -4,7 +4,7 @@ import '../css/BadFoods.css';
 import PropTypes from 'prop-types';
 
 export default function BadFoods({ foods, sortOrder, filterLevel }) {
-  const [sortedFood, setSortedFood] = useState();
+  const [sortedFood, setSortedFood] = useState([]);
 
   const colorStyle = ["", "noneFd", "mildFD", "moderateFD", "severeFD"];
 
@@ -31,17 +31,18 @@ export default function BadFoods({ foods, sortOrder, filterLevel }) {
           </tr>
         </thead>
         <tbody>
-          {!!sortedFood ? sortedFood.map(el =>
-            <tr key={el.id}>
-              <td className={colorStyle[el.data.symptomColor]}>
-                {el.data.amFoods} <br/>
-                {el.data.pmFoods}
-              </td>
-            </tr>
-          )
-           : <tr><td>loading...</td></tr>}
+          {!!sortedFood
+            ? sortedFood.map(el =>
+              <tr key={el.id}>
+                <td className={colorStyle[el.data.symptomColor]}>
+                  {el.data.amFoods} <br />
+                  {el.data.pmFoods}
+                </td>
+              </tr>
+            )
+            : <tr><td>loading...</td></tr>}
           <tr>
-            <td style={{backgroundColor: " rgb(8, 99, 78)", borderRadius: "0px 0px 10px 10px" }}></td>
+            <td style={{ backgroundColor: " rgb(8, 99, 78)", borderRadius: "0px 0px 10px 10px" }}></td>
           </tr>
         </tbody>
       </Table>
